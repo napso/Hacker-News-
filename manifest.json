@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "js": ["js/jquery.min.js", "js/main.js"],
+      "matches": [
+        "https://news.ycombinator.com/*",
+        "http://news.ycombinator.com/*",
+        "https://www.facebook.com/*/*"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "description": "news hacker",
+  "name": "Adam Napso",
+  "version": "0.1"
+}

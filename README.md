@@ -1,2 +1,2 @@
 # Hacker-News-
-Useful hacker news ui enhancements
+Useful hacker news UI enhancements
